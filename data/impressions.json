@@ -1,0 +1,100 @@
+[
+    {
+      "id": "15a5601a-cc01-4b5c-ace7-2e27939c2994",
+      "user_id": "u1",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 32
+    },
+    {
+      "id": "b2c4dfba-9c40-47be-99ff-c6a073cf158c",
+      "user_id": "u2",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 12
+    },
+    {
+      "id": "a05f83ed-90ed-4d90-a1ef-82b30e22772c",
+      "user_id": "u1",
+      "app_id": 2,
+      "country_code": "IN",
+      "advertiser_id": 45
+    },
+    {
+      "id": "4d55efa0-f189-4e2a-be52-cb660df4e89e",
+      "user_id": "u3",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 32
+    },
+    {
+      "id": "b9d50050-8d1a-49e9-99b1-8bce47fcc2aa",
+      "user_id": "u4",
+      "app_id": 2,
+      "country_code": "IN",
+      "advertiser_id": 45
+    },
+    {
+      "id": "b2c4dfba-9c40-47be-99ff-c6a073cf158c",
+      "user_id": "u2",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 12
+    },
+    {
+      "id": "b2c4dfba-9c40-47be-99ff-c6a073cf158c",
+      "user_id": "u2",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 12
+    },
+    {
+      "id": "b2c4dfba-9c40-47be-99ff-c6a073cf158c",
+      "user_id": "u2",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 12
+    },
+    {
+      "id": "b2c4dfba-9c40-47be-99ff-c6a073cf158c",
+      "user_id": "u2",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 12
+    },
+    {
+      "id": "b2c4dfba-9c40-47be-99ff-c6a073cf158c",
+      "user_id": "u2",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 12
+    },
+    {
+      "id": "b2c4dfba-9c40-47be-99ff-c6a073cf158c",
+      "user_id": "u2",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 12
+    },
+    {
+      "id": "b2c4dfba-9c40-47be-99ff-c6a073cf158c",
+      "user_id": "u2",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 12
+    },
+    {
+      "id": "b2c4dfba-9c40-47be-99ff-c6a073cf158c",
+      "user_id": "u2",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 12
+    },
+    {
+      "id": "b2c4dfba-9c40-47be-99ff-c6a073cf158c",
+      "user_id": "u2",
+      "app_id": 1,
+      "country_code": "US",
+      "advertiser_id": 12
+    }
+  ]
