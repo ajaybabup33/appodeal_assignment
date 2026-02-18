@@ -13,20 +13,20 @@ def main(impressions_paths, clicks_paths):
     clicks_df = read_json_files(spark, clicks_paths)
 
     metrics_df = calculate_metrics(impressions_df, clicks_df)
-    # metrics_df.coalesce(1).write.mode("overwrite").json("output/")
-    print("----------------metrics_df -----------------------")
-    metrics_df.show(truncate=False)
+    metrics_df.coalesce(1).write.mode("overwrite").json("output/metrics_df/")
+    # print("----------------metrics_df -----------------------")
+    # metrics_df.show(truncate=False)
 
     recommendations_df = top_advertisers(impressions_df, clicks_df)
-    print("----------------recommendations_df -----------------------")
-    recommendations_df.show(truncate=False)
-    # recommendations_df.coalesce(1).write.mode("overwrite").json("output/recommendations.json")
+    # print("----------------recommendations_df -----------------------")
+    # recommendations_df.show(truncate=False)
+    recommendations_df.coalesce(1).write.mode("overwrite").json("output/recommendations")
     
 
     median_df = calculate_median_user_spend(impressions_df, clicks_df)
-    print("----------------median_df -----------------------")
-    median_df.show(truncate=False)
-    # median_df.coalesce(1).write.mode("overwrite").json("output/median_spend.json")
+    # print("----------------median_df -----------------------")
+    # median_df.show(truncate=False)
+    median_df.coalesce(1).write.mode("overwrite").json("output/median_df")
     
     spark.stop()
 

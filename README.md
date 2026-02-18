@@ -14,7 +14,7 @@ run via spark-submit
 spark-submit --master local[*] src/main.py data/impressions.json data/clicks.json
 
 ## Outputs
-## As I am facing issue in saving the files due to windows machine , I am adding the output here.
+## 
 
 ----------------metrics_df -----------------------
 +------+------------+-----------+------+------------------+
